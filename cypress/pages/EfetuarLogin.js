@@ -8,7 +8,7 @@ class EfetuarLogin {
     }
 
     submit() {
-        cy.get('.css-yl1sti').contains('ENTRAR').click()
+        cy.get('.css-yl1sti', {timeout: 12000}).contains('ENTRAR').click()
     }
 
     mensagemObrigatoriedade(expectedMessage) {
