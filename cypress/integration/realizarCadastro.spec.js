@@ -67,7 +67,7 @@ describe('Cadastrar Novo Usuário', () => {
         EfetuarLogin.go()
 
 
-        cy.get('.css-yl1sti').contains('QUERO ME CADASTRAR').click()
+        cy.get('.css-yl1sti',  { timeout: 10000 }).contains('QUERO ME CADASTRAR').click()
 
         RealizarCadastro.preencherFormulario(usuario)
         RealizarCadastro.acionarBotaoCadastrar()
