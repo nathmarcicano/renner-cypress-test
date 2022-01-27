@@ -74,7 +74,7 @@ describe('Cadastrar Novo Usuário', () => {
         RealizarCadastro.mensagemModal('Por favor, marque a caixa de validação.')
 
     })
-
+/*  
     it.skip('Validar telefone inválido', function () {
         EfetuarLogin.go()
 
@@ -97,7 +97,7 @@ describe('Cadastrar Novo Usuário', () => {
         cy.get('.css-yl1sti').contains('Cadastrar').click()
         RealizarCadastro.mensagemModal('Número de telefone inválido')
 
-    })
+    }) */
 
     it('Validar campos obrigatórios', function () {
         EfetuarLogin.go()

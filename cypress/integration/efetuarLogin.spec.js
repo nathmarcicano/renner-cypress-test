@@ -4,6 +4,7 @@ describe('Efetuar Login',()=>{
 
     it('Validar preenchimento de campos obrigatórios',function(){
         EfetuarLogin.go()
+        cy.wait(500)
         EfetuarLogin.submit()
 
         EfetuarLogin.mensagemObrigatoriedade('este campo é obrigatório')
