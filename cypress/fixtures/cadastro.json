@@ -1,0 +1,12 @@
+{
+    "usuario": {
+        "email": "teste@teste.com.br",
+        "cpf": "11986690717",
+        "firstName": "Nathalia",
+        "lastName": "Silva",
+        "data nascimento": "01/01/2000",
+        "genero": "feminino",
+        "password": "123456",
+       "telefone": "2199999999"
+    }
+}
